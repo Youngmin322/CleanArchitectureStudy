@@ -8,6 +8,7 @@
 import Foundation
 
 protocol TodoRepository {
+    
     func todoInquiry() -> [TodoItem]
     
     func todoAdd(todo: TodoItem)
