@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct TodoItem {
+    let id = UUID()
+    var title: String
+    var isComplete: Bool
+    var date: Date
+}
